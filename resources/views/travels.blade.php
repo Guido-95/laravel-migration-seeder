@@ -14,12 +14,12 @@
     <div class="travels">
         @foreach ($travels as $travel)
             <div class="travel">
-                <div> destination : {{$travel->destination}}</div>
-                <div> airport: {{$travel->airport}}</div>
-                <div> living room: {{$travel->living_room}}</div>
-                <div> nights: {{$travel->nights}} </div>
-                <div> price: {{$travel->price}} &euro;</div>
-                <div> date: {{$travel->date}}</div>
+                <div> Destination : {{$travel->destination}}</div>
+                <div> Airport: {{$travel->airport}}</div>
+                <div> Living room: {{$travel->living_room}}</div>
+                <div> Nights: {{$travel->nights}} </div>
+                <div> Price: {{$travel->price}} &euro;</div>
+                <div> Date: {{$travel->date}}</div>
             </div>
         @endforeach
     </div>
